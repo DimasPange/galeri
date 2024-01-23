@@ -36,7 +36,7 @@ if ($_SESSION['status_login'] != true) {
             <h3>Data Galeri Foto</h3>
             <div class="box">
                 <p><a href="tambah-image.php">Tambah Data +</a></p>
-                <table border="1" cellspacing="0" class="table">
+                <table border="1" cellspacing="" class="table">
                     <thead>
                         <tr>
                             <th width="60px">No</th>
@@ -82,10 +82,24 @@ if ($_SESSION['status_login'] != true) {
                                             : 'Aktif'; ?>
                                     </td>
                                     <td>
+                                        <center>
                                         <a href="edit-image.php?id=<?php echo $row['image_id']
-                                            ?>">Edit</a> ||
+                                            ?>" style=" padding: 8px 3px;
+                                            background-color: #3ed60c;
+                                            color: #fff;
+                                            border-radius: 4px;
+                                            margin-right: 12px;
+                                            cursor: pointer;" class="">Edit</a>
                                         <a href="proses-hapus.php?idp=<?php echo
-                                            $row['image_id'] ?>" onclick="return confirm('Yakin Ingin Hapus ?')">Hapus</a>
+                                            $row['image_id'] ?>" style=" padding: 8px 3px;
+                                            background-color: #fd0404;
+                                            color: #fff;
+                                            border-radius: 4px;
+                                            margin-right: 12px;
+                                            cursor: pointer;
+                                            
+                                            " onclick="return confirm('Yakin Ingin Hapus ?')">Haps</a>
+                                            </center>
                                     </td>
                                 </tr>
                             <?php }

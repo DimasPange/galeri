@@ -38,13 +38,13 @@ a {
 }
 .btn {
 	padding:8px 15px;
-	background-color: #C70039;
+	background-color: #2D3250;
 	color: #fff;
 	border:none;
 	cursor: pointer;
 }
 header {
-	background-color: #C70039;
+	background-color: #2D3250;
 	color: #fff;
 }
 header h1 {
@@ -110,7 +110,7 @@ footer {
 }
 .search input[type=submit] {
 	padding:12px 15px;
-	background-color: #C70039;
+	background-color: #2D3250;
 	color: #fff;
 	border:none;
 	cursor:pointer;
@@ -145,7 +145,7 @@ footer {
 }
 .col-4 .admin {
 	font-weight: bold;
-	color: #FC3F81;
+	color: #2D3250;
 }
 .footer {
 	padding:25px 0;
@@ -176,7 +176,7 @@ footer {
 	margin-bottom: 10px;
 }
 .col-2 h4 {
-	color: #C70039;
+	color: #2D3250;
 }
 .col-2 p {
 	margin:15px 0;
