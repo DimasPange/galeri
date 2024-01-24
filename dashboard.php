@@ -24,6 +24,7 @@ if ($_SESSION['status_login'] != true) {
                 <li><a href="dashboard.php">Dashboard</a></li>
                 <li><a href="profil.php">Profil</a></li>
                 <li><a href="data-image.php">Data Foto</a></li>
+                <li><a href="tambah-kategori.php">Kategori</a></li>
                 <li><a href="Keluar.php">Keluar</a></li>
             </ul>
         </div>

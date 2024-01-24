@@ -28,6 +28,8 @@ $d = mysqli_fetch_object($query);
                 <li><a href="dashboard.php">Dashboard</a></li>
                 <li><a href="profil.php">Profil</a></li>
                 <li><a href="data-image.php">Data foto</a></li>
+                <li><a href="tambah-kategori.php">Kategori</a></li>
+
                 <li><a href="keluar.php">Keluar</a></li>
             </ul>
         </div>
